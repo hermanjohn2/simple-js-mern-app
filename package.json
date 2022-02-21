@@ -1,0 +1,29 @@
+{
+	"name": "simple-js-mern-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hermanjohn2/simple-js-mern-app.git"
+	},
+	"author": "John Herman",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/hermanjohn2/simple-js-mern-app/issues"
+	},
+	"homepage": "https://github.com/hermanjohn2/simple-js-mern-app#readme",
+	"dependencies": {
+		"compression": "^1.7.4",
+		"express": "^4.17.3",
+		"morgan": "^1.10.0",
+		"xml-js": "^1.6.11"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}

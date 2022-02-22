@@ -6,8 +6,8 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "per-env",
-		"start:development": "nodemon server",
-		"start:production": "node server",
+		"start:development": "nodemon server/index.js",
+		"start:production": "node server/index.js",
 		"install": "cd client && npm install",
 		"build": "cd client && npm run build"
 	},

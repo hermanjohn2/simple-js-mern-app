@@ -7,7 +7,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "per-env",
 		"start:development": "nodemon server",
-		"start:production": "node server"
+		"start:production": "node server",
+		"install": "cd client && npm install"
 	},
 	"repository": {
 		"type": "git",
